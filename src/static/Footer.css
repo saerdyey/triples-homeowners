@@ -1,0 +1,12 @@
+#Footer {
+  padding: 16px;
+  text-align: center;
+  background-color: rgb(145, 211, 145);
+  line-height: 8px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+#Footer .wrapper {
+  background-color: rgb(145, 211, 145);
+}

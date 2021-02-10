@@ -1,0 +1,66 @@
+/* width="800" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" */
+#ContactUs {
+  background-image: url(./img/leaves3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.flex-wrapper {
+  display: flex;
+  padding: 20px;
+}
+
+#ContactUs .map-container,
+.contacts-container {
+  margin: 5px;
+}
+
+#ContactUs .wrapper {
+  padding-top: 20px;
+}
+
+iframe {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  border: none;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+#ContactUs h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.map-container {
+  flex: 3;
+}
+
+.contacts-container {
+  flex: 1;
+  padding: 10px;
+  margin-left: 30px;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.form-container {
+  margin: 20px 0px;
+  padding: 20px;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.contacts-container p {
+  font-size: 16px;
+  line-height: 12px;
+}
+
+.subt {
+  font-weight: bolder;
+}
