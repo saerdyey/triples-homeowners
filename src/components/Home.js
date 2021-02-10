@@ -1,5 +1,5 @@
-import React from 'react';
-import {Link} from 'react-router-dom'
+import React, {useEffect} from 'react';
+import {Link, useHistory} from 'react-router-dom'
 import '../static/Home.css'
 
 import pic1 from '../static/img/pic1.png'
@@ -10,6 +10,14 @@ import Carousel from './Carousel'
 import AboutUs from './AboutUs'
 
 function Home() {
+
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+
+  const history = useHistory();
   return (
     <div id="Home">
         <Carousel/>
@@ -30,19 +38,25 @@ function Home() {
               <img src={pic1} alt=""/>
                 <h3>About Us</h3>
                 <p>Greenmeadows 1 is a seventy-seven (77) hectare first class exclusive residential village developed five (5) decades ago by Ortigas &amp; Company Limited Partnership, Inc. within the general vicinity of gated residential subdivisions, & proximal to upscale commercial centers, top-rated educational institutions, ultra-modern hospital facilities, air-conditioned churches, fine dining restaurants &amp; cafès, &amp; other institutional developments.</p>
-                <button className="mv-btn">Read More</button>
+                  <button className="mv-btn" onClick={() => {
+                    history.push('/about-us')
+                  }}>Read More</button>
               </div>
               <div className="card">
               <img src={pic2} alt=""/>
                 <h3>Facilities</h3>
                 <p>Clubhouse Lanai A favorite events place for birthdays, weddings, debuts, baptisms and corporate parties, this fully air-conditioned Lanai hall has an exquisitely-designed and versatilely-modern interiors and can accommodate 250 to 300 persons. The whole clubhouse and the entire park are Wi-Fi enabled zone.</p>
-                <button className="mv-btn">Read More</button>
+                  <button className="mv-btn" onClick={() => {
+                    history.push('/facilities')
+                  }}>Read More</button>
               </div>
               <div className="card">
                 <img src={pic3} alt=""/>
                 <h3>Contact Us</h3>
                 <p>Contact our ADMIN OFFICE at 8637-3311 or 8637-3399.</p>
-                <button className="mv-btn">Read More</button>
+                  <button className="mv-btn" onClick={() => {
+                    history.push('/contact-us')
+                  }}>Read More</button>
               </div>
             </div>
           </div>
