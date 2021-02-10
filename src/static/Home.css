@@ -38,8 +38,6 @@
 .introduction-content {
   position: relative;
   padding: 10px;
-  /* border-top: 5px solid black;
-  border-bottom: 5px solid black; */
 }
 
 .introduction h1,
@@ -66,7 +64,6 @@ button {
   border-radius: 2px;
   width: 150px;
   height: 44px;
-  border-radius: 2px;
 }
 
 .mv-btn:hover {
@@ -89,4 +86,63 @@ button {
 
 .location h2 {
   text-align: start;
+}
+
+@media screen and (max-width: 768px) and (min-width: 415px) {
+  .wrapper {
+    width: 90%;
+    padding: 5px;
+  }
+  .introduction h1 {
+    font-family: "Tangerine", cursive;
+    font-size: 64px;
+    font-weight: bolder;
+  }
+  .introduction p {
+    font-size: 16px;
+  }
+  .card {
+    margin: 10px;
+    padding: 5px;
+  }
+  .card h2,
+  p {
+    font-size: 12px;
+  }
+  .card .mv-btn {
+    width: 100px;
+    height: 36px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .wrapper {
+    width: 95%;
+    padding: 3px;
+  }
+  .introduction h1 {
+    font-family: "Tangerine", cursive;
+    font-size: 55px;
+    font-weight: bolder;
+  }
+  .introduction p {
+    font-size: 12px;
+  }
+  .cards-container {
+    flex-direction: column;
+  }
+  .card {
+    margin: 10px;
+    padding: 5px;
+  }
+  .card h2,
+  p {
+    font-size: 12px;
+  }
+  .card .mv-btn {
+    width: 100px;
+    height: 36px;
+    font-size: 12px;
+  }
 }

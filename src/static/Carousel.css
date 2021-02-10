@@ -10,12 +10,13 @@
 }
 
 @media screen and (max-width: 768px) and (min-width: 415px) {
+  #Carousel img {
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 414px) {
-  #Carousel {
-  }
   #Carousel img {
-    height: auto;
+    height: 300px;
   }
 }

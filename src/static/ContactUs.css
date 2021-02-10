@@ -11,10 +11,10 @@
   padding: 20px;
 }
 
-#ContactUs .map-container,
+/* #ContactUs .map-container,
 .contacts-container {
   margin: 5px;
-}
+} */
 
 #ContactUs .wrapper {
   padding-top: 20px;
@@ -63,4 +63,22 @@ h3 {
 
 .subt {
   font-weight: bolder;
+}
+
+@media screen and (max-width: 768px) and (min-width: 415px) {
+  .flex-wrapper {
+    flex-direction: column;
+  }
+  .contacts-container {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .flex-wrapper {
+    flex-direction: column;
+  }
+  .contacts-container {
+    margin-left: 0px;
+  }
 }
