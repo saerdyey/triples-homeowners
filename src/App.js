@@ -6,6 +6,7 @@ import Home from './components/Home'
 import ContactUs from './components/ContactUs'
 import Footer from './components/Footer'
 import Forms from './components/Forms'
+import AboutUs from './components/AboutUs'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" exact component={Home}/>
           <Route path="/contact-us" component={ContactUs}/>
           <Route path="/forms" component={Forms}/>
+          <Route path="/about-us" component={AboutUs}/>
         </Switch>
         <Footer/>
       </div>

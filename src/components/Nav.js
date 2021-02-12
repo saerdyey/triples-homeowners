@@ -22,7 +22,7 @@ const Nav = () => {
               <Link to="/" className="nav-link">Home<span class="sr-only">(current)</span></Link>
             </li>
             <li class="nav-item active">
-              <Link to="/village" className="nav-link">The Village<span class="sr-only"></span></Link>
+              <Link to="/about-us" className="nav-link">The Village<span class="sr-only"></span></Link>
             </li>
             <li class="nav-item active">
               <Link to="/officials" className="nav-link">Officials<span class="sr-only"></span></Link>

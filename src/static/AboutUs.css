@@ -1,20 +1,44 @@
 #AboutUs {
-  background-color: rgba(160, 255, 97, 0.74);
+  background-image: url(./img/leaves3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   overflow: hidden;
-  padding-top: 50px;
+}
+
+#AboutUs .wrapper {
+  padding-top: 20px;
+}
+
+#AboutUs h1,
+h2,
+h3 {
+  text-align: center;
 }
 
 #AboutUs img {
-  width: 520px;
-  margin: 16px;
-  border: 4px solid white;
+  background-color: white;
+  padding: 5px;
+  margin: 20px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+  width: 300px;
 }
 
-.text-container {
-  flex: 2;
-  font-size: 18px;
+.post {
+  margin: 40px 20px;
 }
 
-.image-container {
-  flex: 2;
+.post img {
+  float: left;
+  background-color: white;
+  padding: 5px;
+}
+
+.post .imgright {
+  float: right;
+}
+
+.post-text {
+  text-align: justify;
+  margin: 20px;
 }
