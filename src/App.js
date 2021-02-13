@@ -7,6 +7,7 @@ import ContactUs from './components/ContactUs'
 import Footer from './components/Footer'
 import Forms from './components/Forms'
 import AboutUs from './components/AboutUs'
+import Officials from './components/Officials'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contact-us" component={ContactUs}/>
           <Route path="/forms" component={Forms}/>
           <Route path="/about-us" component={AboutUs}/>
+          <Route path="/officials" component={Officials}/>
         </Switch>
         <Footer/>
       </div>

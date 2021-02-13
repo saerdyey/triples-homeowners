@@ -1,0 +1,70 @@
+#Officials {
+  background-image: url(./img/leaves3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+#Officials .wrapper {
+  padding-top: 20px;
+}
+
+#Officials h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+#Officials .card {
+  width: 50%;
+  margin: 20px;
+  margin: 20px auto;
+}
+.avatar {
+  margin: auto;
+}
+.avatar img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.info {
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) and (min-width: 415px) {
+  #Officials h2 {
+    font-size: 30px;
+  }
+
+  #Officials h4 {
+    text-align: center;
+  }
+
+  .avatar img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #Officials h2 {
+    font-size: 30px;
+  }
+  #Officials h4 {
+    text-align: center;
+  }
+
+  #Officials .card {
+    width: 80%;
+    margin: 20px;
+    margin: 20px auto;
+  }
+
+  .avatar img {
+    width: 150px;
+    height: 150px;
+  }
+}
