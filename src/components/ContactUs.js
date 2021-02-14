@@ -15,7 +15,7 @@ const ContactUs = () => {
                 <div className="map-container">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.111246200791!2d121.05900891437031!3d14.706300378421348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b0941a0df48f%3A0x295e10fe8bd7eb81!2sSSS%20North%20Fairview%20Homes!5e0!3m2!1sen!2sph!4v1612904367485!5m2!1sen!2sph"></iframe>
                     <div className="form-container">
-                        <form>
+                        <form name="contact" netlify>
                             <div className="form-row">
                                 <div className="form-group col-md-6">
                                 <label htmlFor="contact-fname">First Name</label>
