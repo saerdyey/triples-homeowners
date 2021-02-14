@@ -36,6 +36,49 @@ const AboutUs = () => {
                     secured, progressive, and family-oriented environment. Truly a marvelous haven for its residents.</p>
                 </div>
             </div>
+            <div className="card">
+                <div className="flex-wrapper">
+                <div className="mission-vission">
+                    <h2>MISSION</h2>
+                    <p>Build a vibrant, premier community that fosters neighborhood pride, encourages cooperation, promotes
+                    harmony, and maintains an attractive environment for our homeowners.
+                    </p>
+                </div>
+                <div className="mission-vission">
+                    <h2>VISION</h2>
+                    <p>SSS village strives to build a sense of community and optimize property values by maintaining and
+                    improving parks, parkings, and common areas, resulting in a desirable neighborhood.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div className="facilities">
+                <h2>FACILITIES</h2>
+                <div className="fac-post">
+                    <div className="fac-img">
+                    <img src={pic1} alt=""/>
+                    </div>
+                    <div className="fac-caption">
+                    SSS village strives to build a sense of community and
+                    </div>
+                </div>
+                <div className="fac-post">
+                    <div className="fac-img">
+                    <img src={pic1} alt=""/>
+                    </div>
+                    <div className="fac-caption">
+                    SSS village strives to build a sense of community and
+                    </div>
+                </div>
+                <div className="fac-post">
+                    <div className="fac-img">
+                    <img src={pic1} alt=""/>
+                    </div>
+                    <div className="fac-caption">
+                    SSS village strives to build a sense of community and
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
   );

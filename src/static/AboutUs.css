@@ -11,7 +11,8 @@
 
 #AboutUs h1,
 h2,
-h3 {
+h3,
+p {
   text-align: center;
 }
 
@@ -25,7 +26,7 @@ h3 {
 }
 
 .post {
-  margin: 40px 20px;
+  margin: 20px;
 }
 
 .post img {
@@ -41,4 +42,35 @@ h3 {
 .post-text {
   text-align: justify;
   margin: 20px;
+}
+
+.fac-post {
+  width: 60%;
+  margin: 30px auto;
+  justify-content: center;
+}
+
+#AboutUs .facilities {
+  margin: 20px;
+}
+
+.fac-caption p {
+  text-align: center;
+}
+
+#AboutUs .facilities img {
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) and (min-width: 415px) {
+  .fac-post {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .fac-post {
+    width: 90%;
+  }
 }
