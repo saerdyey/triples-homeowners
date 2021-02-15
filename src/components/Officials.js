@@ -53,7 +53,7 @@ const Officials = () => {
                             </div>
                         </div>        
                     </div>
-                    <br/>235
+                    <br/>
                     <h2>Board of Directors Committee</h2>
                     <div className="card">
                         <div className="flex-wrapper">

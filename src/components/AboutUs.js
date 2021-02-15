@@ -1,6 +1,13 @@
 import React from 'react';
 import pic1 from '../static/img/img1.jpg'
 import pic2 from '../static/img/img2.jpg'
+import pic3 from '../static/img/img3.jpg'
+import pic4 from '../static/img/img4.jpg'
+import pic5 from '../static/img/img5.jpg'
+import pic6 from '../static/img/img6.jpg'
+import pic7 from '../static/img/img7.jpg'
+import pic8 from '../static/img/img8.jpg'
+import pic9 from '../static/img/img9.jpg'
 import '../static/AboutUs.css'
 
 const AboutUs = () => {
@@ -56,26 +63,50 @@ const AboutUs = () => {
                 <h2>FACILITIES</h2>
                 <div className="fac-post">
                     <div className="fac-img">
-                    <img src={pic1} alt=""/>
+                    <img src={pic3} alt=""/>
                     </div>
                     <div className="fac-caption">
-                    SSS village strives to build a sense of community and
+                    Play park for your lovely kids.
                     </div>
                 </div>
                 <div className="fac-post">
                     <div className="fac-img">
-                    <img src={pic1} alt=""/>
+                    <img src={pic4} alt=""/>
                     </div>
                     <div className="fac-caption">
-                    SSS village strives to build a sense of community and
+                    Evangelical chucrch to pray.
                     </div>
                 </div>
                 <div className="fac-post">
                     <div className="fac-img">
-                    <img src={pic1} alt=""/>
+                    <img src={pic6} alt=""/>
                     </div>
                     <div className="fac-caption">
-                    SSS village strives to build a sense of community and
+                    Clean swimming pool
+                    </div>
+                </div>
+                <div className="fac-post">
+                    <div className="fac-img">
+                    <img src={pic9} alt=""/>
+                    </div>
+                    <div className="fac-caption">
+                    A place for any kind of events
+                    </div>
+                </div>
+                <div className="fac-post">
+                    <div className="fac-img">
+                    <img src={pic7} alt=""/>
+                    </div>
+                    <div className="fac-caption">
+                    Badminton Court
+                    </div>
+                </div>
+                <div className="fac-post">
+                    <div className="fac-img">
+                    <img src={pic8} alt=""/>
+                    </div>
+                    <div className="fac-caption">
+                    Basketball Court
                     </div>
                 </div>
             </div>

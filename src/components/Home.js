@@ -2,12 +2,11 @@ import React, {useEffect} from 'react';
 import {Link, useHistory} from 'react-router-dom'
 import '../static/Home.css'
 
-import pic1 from '../static/img/pic1.png'
-import pic2 from '../static/img/pic2.jpg'
-import pic3 from '../static/img/pic3.png'
+import pic1 from '../static/img/img4.jpg'
+import pic2 from '../static/img/img9.jpg'
+import pic3 from '../static/img/img5.jpg'
 
 import Carousel from './Carousel'
-import AboutUs from './AboutUs'
 
 function Home() {
 
@@ -37,7 +36,12 @@ function Home() {
               <div className="card">
               <img src={pic1} alt=""/>
                 <h3>About Us</h3>
-                <p>Greenmeadows 1 is a seventy-seven (77) hectare first class exclusive residential village developed five (5) decades ago by Ortigas &amp; Company Limited Partnership, Inc. within the general vicinity of gated residential subdivisions, & proximal to upscale commercial centers, top-rated educational institutions, ultra-modern hospital facilities, air-conditioned churches, fine dining restaurants &amp; cafès, &amp; other institutional developments.</p>
+                <p>TripleS is a seventy-seven (20) hectare residential village developed by the SSS (Social Security System)
+                every street to be found there is named after the names of their seniors and on how do they work,
+                moreover most people lived in SSS village are the ones who worked in SSS. within the general vicinity of
+                gated residential village, &amp; proximal to upscale commercial centers, near educational institutions, modern
+                hospital facilities, air-continues churches, street/home food restaurants &amp; cafès, &amp; other institutional
+                developments.</p>
                   <button className="mv-btn" onClick={() => {
                     history.push('/about-us')
                   }}>Read More</button>
