@@ -11,6 +11,11 @@ import pic9 from '../static/img/img9.jpg'
 import '../static/AboutUs.css'
 
 const AboutUs = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
   return (
     <div id="AboutUs">
         <div className="wrapper">

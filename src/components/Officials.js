@@ -4,6 +4,11 @@ import '../static/Officials.css';
 import avatar from '../static/img/morty-smith.jpg';
 
 const Officials = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return(
         <div id="Officials">
             <div className="wrapper">
