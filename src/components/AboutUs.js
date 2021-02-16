@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import pic1 from '../static/img/img1.jpg'
 import pic2 from '../static/img/img2.jpg'
 import pic3 from '../static/img/img3.jpg'
