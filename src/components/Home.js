@@ -26,7 +26,9 @@ function Home() {
               <h1>SSS North</h1>
               <h1>Fairview Homes</h1>
               <p>will continue to be a world class village and a model of peaceful life community</p>
-              <button className="mv-btn">Mission and Vision</button>
+              <button className="mv-btn" onClick={() => {
+                    history.push('/about-us')
+                  }}>Mission and Vision</button>
             </div>
           </div>
         </div>
@@ -51,7 +53,7 @@ function Home() {
                 <h3>Facilities</h3>
                 <p>Clubhouse Lanai A favorite events place for birthdays, weddings, debuts, baptisms and corporate parties, this fully air-conditioned Lanai hall has an exquisitely-designed and versatilely-modern interiors and can accommodate 250 to 300 persons. The whole clubhouse and the entire park are Wi-Fi enabled zone.</p>
                   <button className="mv-btn" onClick={() => {
-                    history.push('/facilities')
+                    history.push('/about-us')
                   }}>Read More</button>
               </div>
               <div className="card">
