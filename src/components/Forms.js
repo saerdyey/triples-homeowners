@@ -23,24 +23,24 @@ const Forms = () => {
                     <div className="flex-wrapper">
                         <div className="card">
                             <div className="form">
-                                <h3>Work Permit</h3>
+                                <h3>Business Permit</h3>
                                 <h4>Requirements</h4>
                                 <ul>
-                                    <p>shabu</p>
-                                    <p>shabu</p>
-                                    <p>shabu</p>
+                                    <p>requirement 1</p>
+                                    <p>requirement 2</p>
+                                    <p>requirement 3</p>
                                 </ul>
                                 <a href={dFile1} download><button className="mv-btn">Download</button></a>
                             </div>
                         </div>
                         <div className="card">
                             <div className="form">
-                                <h3>Work Permit</h3>
+                                <h3>Parking Application</h3>
                                 <h4>Requirements</h4>
                                 <ul>
-                                    <p>shabu</p>
-                                    <p>shabu</p>
-                                    <p>shabu</p>
+                                    <p>requirement 1</p>
+                                    <p>requirement 2</p>
+                                    <p>requirement 3</p>
                                 </ul>
                                 <a href={dFile1} download><button className="mv-btn">Download</button></a>
                             </div>
@@ -51,24 +51,24 @@ const Forms = () => {
                     <div className="flex-wrapper">
                         <div className="card">
                             <div className="form">
-                                <h3>Work Permit</h3>
+                                <h3>Gate Sticker Pass</h3>
                                 <h4>Requirements</h4>
                                 <ul>
-                                    <p>shabu</p>
-                                    <p>shabu</p>
-                                    <p>shabu</p>
+                                    <p>requirement 1</p>
+                                    <p>requirement 2</p>
+                                    <p>requirement 3</p>
                                 </ul>
                                 <a href={dFile1} download><button className="mv-btn">Download</button></a>
                             </div>
                         </div>
                         <div className="card">
                             <div className="form">
-                                <h3>Work Permit</h3>
+                                <h3>Clubhouse Reservation</h3>
                                 <h4>Requirements</h4>
                                 <ul>
-                                    <p>shabu</p>
-                                    <p>shabu</p>
-                                    <p>shabu</p>
+                                    <p>requirement 1</p>
+                                    <p>requirement 2</p>
+                                    <p>requirement 3</p>
                                 </ul>
                                 <a href={dFile1} download><button className="mv-btn">Download</button></a>
                             </div>
